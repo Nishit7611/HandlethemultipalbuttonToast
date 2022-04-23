@@ -12,7 +12,7 @@
         android:id="@+id/btn1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="200px"
+        android:layout_margin="20px"
         android:text="Alert Button"
         android:onClick="onClick"  />
 
@@ -20,7 +20,42 @@
         android:id="@+id/btn2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="200px"
-        android:text="Button"
-        android:onClick="onClick"/>
+        android:layout_margin="20px"
+        android:onClick="onClick"
+        android:text="Button" />
+
+
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:onClick="onClick"
+        android:text="Timepicer" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:onClick="onClick"
+        android:text="Date Picker" />
+
+    <EditText
+        android:id="@+id/idtxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_baseline_calendar_today_24"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="date"
+        android:layout_margin="20px"
+        android:focusable="false"
+
+
+
+
+        />
+
 </LinearLayout>
